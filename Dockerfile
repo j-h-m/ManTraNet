@@ -23,4 +23,4 @@ COPY / .
 RUN python3.6 -m pip install -r requirements.txt
 
 # container main command
-CMD jupyter notebook --ip 0.0.0.0 --port 9999 --no-browser --allow-root
+CMD jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser --allow-root
