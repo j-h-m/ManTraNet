@@ -7,3 +7,4 @@ opencv-contrib-python==3.4.13.47
 Pillow==8.1.2
 matplotlib==3.2.2
 requests==2.25.1
+pandas==1.1.5
