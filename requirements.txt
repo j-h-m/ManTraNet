@@ -8,3 +8,4 @@ Pillow==8.1.2
 matplotlib==3.2.2
 requests==2.25.1
 pandas==1.1.5
+image_slicer==2.1.1
