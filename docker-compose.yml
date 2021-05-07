@@ -6,5 +6,5 @@ services:
     volumes:
       - /var/lib/samba/usershares/openmfc_data:/usr/src/app/openmfc_data
     environment:
-      - NVIDIA_VISIBLE_DEVICES=3
+      - NVIDIA_VISIBLE_DEVICES=0
     build: .
