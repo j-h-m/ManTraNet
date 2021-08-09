@@ -15,8 +15,10 @@ This is the official repo for the ManTraNet (CVPR2019). For method details, plea
 
 ***
 
-# Note from fork author
-To run the docker container you need to install and setup this tool on your host: https://github.com/NVIDIA/nvidia-docker#quickstart
+# Notes from the fork author
+1.  To run the docker container you need to install and setup this tool on your host: https://github.com/NVIDIA/nvidia-docker#quickstart. You can then use `docker-compose up` to build the container.
+
+2. Alternatively, you can install the requirements in a conda environment, just be sure to create a conda environment with `python=3.6` and then run `conda install -c anaconda cudatoolkit==9.0`
 
 # Overview
 ManTraNet is an end-to-end image forgery detection and localization solution, which means it takes a testing image as input, and predicts pixel-level forgery likelihood map as output. Comparing to existing methods, the proposed ManTraNet has the following advantages:
